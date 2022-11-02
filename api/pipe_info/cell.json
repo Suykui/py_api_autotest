@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_cell",
+        "req":"/prod-api/basics/fhfq/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_cell",
+        "req":"/prod-api/basics/fhfq",
+        "method":"post"
+    },
+    {
+        "api_name":"view_cell",
+        "req":"/prod-api/basics/fhfq/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_cell",
+        "req":"/prod-api/basics/fhfq/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_cell",
+        "req":"/prod-api/basics/fhfq/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_cell",
+        "req":"/prod-api/basics/fhfq/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_cell",
+        "req":"/prod-api/basics/fhfq/",
+        "method":"delete"
+    }
+]

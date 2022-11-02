@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_plan",
+        "req":"/prod-api/emer/plan/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_plan",
+        "req":"/prod-api/emer/plan",
+        "method":"post"
+    },
+    {
+        "api_name":"view_plan",
+        "req":"/prod-api/emer/plan/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_plan",
+        "req":"/prod-api/emer/plan/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_plan",
+        "req":"/prod-api/emer/plan/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_plan",
+        "req":"/prod-api/emer/plan/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_plan",
+        "req":"/prod-api/emer/plan/",
+        "method":"delete"
+    }
+]

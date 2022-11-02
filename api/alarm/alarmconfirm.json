@@ -1,0 +1,17 @@
+[
+    {
+        "api_name":"get_alarmconfirm",
+        "req":"/prod-api/basics/alarm/list",
+        "method":"get"
+    },
+    {
+        "api_name":"search_alarmconfirm",
+        "req":"/prod-api/basics/alarm/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_alarmconfirm",
+        "req":"/prod-api/basics/alarm/export",
+        "method":"post"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_vents",
+        "req":"/prod-api/basics/tfk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_vents",
+        "req":"/prod-api/basics/tfk",
+        "method":"post"
+    },
+    {
+        "api_name":"view_vents",
+        "req":"/prod-api/basics/tfk/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_vents",
+        "req":"/prod-api/basics/tfk/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_vents",
+        "req":"/prod-api/basics/tfk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_vents",
+        "req":"/prod-api/basics/tfk/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_vents",
+        "req":"/prod-api/basics/tfk/",
+        "method":"delete"
+    }
+]

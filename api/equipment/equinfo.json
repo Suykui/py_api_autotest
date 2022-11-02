@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_equinfo",
+        "req":"/prod-api/basics/equipmentInfo/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_equinfo",
+        "req":"/prod-api/basics/equipmentInfo",
+        "method":"post"
+    },
+    {
+        "api_name":"view_equinfo",
+        "req":"/prod-api/basics/equipmentInfo/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_equinfo",
+        "req":"/prod-api/basics/equipmentInfo/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_equinfo",
+        "req":"/prod-api/basics/equipmentInfo/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_equinfo",
+        "req":"/prod-api/basics/equipmentInfo/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_equinfo",
+        "req":"/prod-api/basics/equipmentInfo/",
+        "method":"delete"
+    }
+]

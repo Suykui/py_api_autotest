@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_accident",
+        "req":"/prod-api/emer/accident/report/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_accident",
+        "req":"/prod-api/emer/accident/report/",
+        "method":"post"
+    },
+    {
+        "api_name":"view_accident",
+        "req":"/prod-api/emer/accident/report/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_accident",
+        "req":"/prod-api/emer/accident/report/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_accident",
+        "req":"/prod-api/emer/accident/report/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_accident",
+        "req":"/prod-api/emer/accident/report/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_accident",
+        "req":"/prod-api/emer/accident/report/",
+        "method":"delete"
+    }
+]

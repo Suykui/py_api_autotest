@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_feeding",
+        "req":"/prod-api/basics/tlk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_feeding",
+        "req":"/prod-api/basics/tlk",
+        "method":"post"
+    },
+    {
+        "api_name":"view_feeding",
+        "req":"/prod-api/basics/tlk/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_feeding",
+        "req":"/prod-api/basics/tlk/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_feeding",
+        "req":"/prod-api/basics/tlk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_feeding",
+        "req":"/prod-api/basics/tlk/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_feeding",
+        "req":"/prod-api/basics/tlk/",
+        "method":"delete"
+    }
+]

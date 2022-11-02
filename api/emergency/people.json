@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_people",
+        "req":"/prod-api/emer/res/people/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_people",
+        "req":"/prod-api/emer/res/people",
+        "method":"post"
+    },
+    {
+        "api_name":"view_people",
+        "req":"/prod-api/emer/res/people/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_people",
+        "req":"/prod-api/emer/res/people/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_people",
+        "req":"/prod-api/emer/res/people/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_people",
+        "req":"/prod-api/emer/res/people/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_people",
+        "req":"/prod-api/emer/res/people/",
+        "method":"delete"
+    }
+]

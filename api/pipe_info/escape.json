@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_escape",
+        "req":"/prod-api/basics/tsk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_escape",
+        "req":"/prod-api/basics/tsk",
+        "method":"post"
+    },
+    {
+        "api_name":"view_escape",
+        "req":"/prod-api/basics/tsk/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_escape",
+        "req":"/prod-api/basics/tsk/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_escape",
+        "req":"/prod-api/basics/tsk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_escape",
+        "req":"/prod-api/basics/tsk/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_escape",
+        "req":"/prod-api/basics/tsk/",
+        "method":"delete"
+    }
+]

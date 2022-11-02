@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_staff",
+        "req":"/prod-api/basics/pgUser/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_staff",
+        "req":"/prod-api/basics/pgUser",
+        "method":"post"
+    },
+    {
+        "api_name":"view_staff",
+        "req":"/prod-api/basics/pgUser/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_staff",
+        "req":"/prod-api/basics/pgUser/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_staff",
+        "req":"/prod-api/basics/pgUser/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_staff",
+        "req":"/prod-api/basics/pgUser/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_staff",
+        "req":"/prod-api/basics/pgUser/",
+        "method":"delete"
+    }
+]

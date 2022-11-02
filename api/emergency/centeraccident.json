@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_centeraccident",
+        "req":"/prod-api/basics/utconAccidentReport/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_centeraccident",
+        "req":"/prod-api/basics/utconAccidentReport",
+        "method":"post"
+    },
+    {
+        "api_name":"view_centeraccident",
+        "req":"/prod-api/basics/utconAccidentReport/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_centeraccident",
+        "req":"/prod-api/basics/utconAccidentReport/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_centeraccident",
+        "req":"/prod-api/basics/utconAccidentReport/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_centeraccident",
+        "req":"/prod-api/basics/utconAccidentReport/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_centeraccident",
+        "req":"/prod-api/basics/utconAccidentReport/",
+        "method":"delete"
+    }
+]

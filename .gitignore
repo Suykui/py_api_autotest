@@ -1,0 +1,6 @@
+download/*
+log/*
+report/*
+.vscode/
+
+*.pyc

@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_supplies",
+        "req":"/prod-api/emer/res/sup/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_supplies",
+        "req":"/prod-api/emer/res/sup",
+        "method":"post"
+    },
+    {
+        "api_name":"view_supplies",
+        "req":"/prod-api/emer/res/sup/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_supplies",
+        "req":"/prod-api/emer/res/sup/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_supplies",
+        "req":"/prod-api/emer/res/sup/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_supplies",
+        "req":"/prod-api/emer/res/sup/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_supplies",
+        "req":"/prod-api/emer/res/sup/",
+        "method":"delete"
+    }
+]

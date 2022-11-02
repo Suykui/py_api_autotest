@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_centerdrill",
+        "req":"/prod-api/basics/utconEmergencyDrill/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_centerdrill",
+        "req":"/prod-api/basics/utconEmergencyDrill",
+        "method":"post"
+    },
+    {
+        "api_name":"view_centerdrill",
+        "req":"/prod-api/basics/utconEmergencyDrill/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_centerdrill",
+        "req":"/prod-api/basics/utconEmergencyDrill/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_centerdrill",
+        "req":"/prod-api/basics/utconEmergencyDrill/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_centerdrill",
+        "req":"/prod-api/basics/utconEmergencyDrill/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_centerdrill",
+        "req":"/prod-api/basics/utconEmergencyDrill/",
+        "method":"delete"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_paratype",
+        "req":"/prod-api/basics/parameterType/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_paratype",
+        "req":"/prod-api/basics/parameterType",
+        "method":"post"
+    },
+    {
+        "api_name":"view_paratype",
+        "req":"/prod-api/basics/parameterType/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_paratype",
+        "req":"/prod-api/basics/parameterType/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_paratype",
+        "req":"/prod-api/basics/parameterType/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_paratype",
+        "req":"/prod-api/basics/parameterType/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_paratype",
+        "req":"/prod-api/basics/parameterType/",
+        "method":"delete"
+    }
+]

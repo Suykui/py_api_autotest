@@ -1,0 +1,6 @@
+server:
+  ip: 140.249.191.115
+  port: 88
+account:
+  user: demo
+  passwd: 123456

@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_center",
+        "req":"/prod-api/basics/coninfo/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_center",
+        "req":"/prod-api/basics/coninfo",
+        "method":"post"
+    },
+    {
+        "api_name":"view_center",
+        "req":"/prod-api/basics/coninfo/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_center",
+        "req":"/prod-api/basics/coninfo/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_center",
+        "req":"/prod-api/basics/coninfo/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_center",
+        "req":"/prod-api/basics/coninfo/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_center",
+        "req":"/prod-api/basics/coninfo/",
+        "method":"delete"
+    }
+]

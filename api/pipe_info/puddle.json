@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_puddle",
+        "req":"/prod-api/basics/jsk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_puddle",
+        "req":"/prod-api/basics/jsk",
+        "method":"post"
+    },
+    {
+        "api_name":"view_puddle",
+        "req":"/prod-api/basics/jsk/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_puddle",
+        "req":"/prod-api/basics/jsk/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_puddle",
+        "req":"/prod-api/basics/jsk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_puddle",
+        "req":"/prod-api/basics/jsk/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_puddle",
+        "req":"/prod-api/basics/jsk/",
+        "method":"delete"
+    }
+]

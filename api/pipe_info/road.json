@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_road",
+        "req":"/prod-api/basics/ptGg/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_road",
+        "req":"/prod-api/basics/ptGg",
+        "method":"post"
+    },
+    {
+        "api_name":"view_road",
+        "req":"/prod-api/basics/ptGg/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_road",
+        "req":"/prod-api/basics/ptGg/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_road",
+        "req":"/prod-api/basics/ptGg/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_road",
+        "req":"/prod-api/basics/ptGg/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_road",
+        "req":"/prod-api/basics/ptGg/",
+        "method":"delete"
+    }
+]

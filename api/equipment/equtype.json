@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_equtype",
+        "req":"/prod-api/basics/equipmentType/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_equtype",
+        "req":"/prod-api/basics/equipmentType",
+        "method":"post"
+    },
+    {
+        "api_name":"view_equtype",
+        "req":"/prod-api/basics/equipmentType/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_equtype",
+        "req":"/prod-api/basics/equipmentType/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_equtype",
+        "req":"/prod-api/basics/equipmentType/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_equtype",
+        "req":"/prod-api/basics/equipmentType/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_equtype",
+        "req":"/prod-api/basics/equipmentType/",
+        "method":"delete"
+    }
+]

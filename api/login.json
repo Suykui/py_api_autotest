@@ -1,0 +1,8 @@
+{
+    "login":
+    {
+        "api_name":"login",
+        "req":"/prod-api/auth/login",
+        "method":"post"
+    }
+}

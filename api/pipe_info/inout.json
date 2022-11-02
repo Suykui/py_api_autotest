@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_inout",
+        "req":"/prod-api/basics/crk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_inout",
+        "req":"/prod-api/basics/crk",
+        "method":"post"
+    },
+    {
+        "api_name":"view_inout",
+        "req":"/prod-api/basics/crk/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_inout",
+        "req":"/prod-api/basics/crk/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_inout",
+        "req":"/prod-api/basics/crk/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_inout",
+        "req":"/prod-api/basics/crk/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_inout",
+        "req":"/prod-api/basics/crk/",
+        "method":"delete"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "api_name":"get_centerres",
+        "req":"/prod-api/basics/utconEmergencyRes/list",
+        "method":"get"
+    },
+    {
+        "api_name":"add_centerres",
+        "req":"/prod-api/basics/utconEmergencyRes",
+        "method":"post"
+    },
+    {
+        "api_name":"view_centerres",
+        "req":"/prod-api/basics/utconEmergencyRes/",
+        "method":"get"
+    },
+    {
+        "api_name":"modify_centerres",
+        "req":"/prod-api/basics/utconEmergencyRes/",
+        "method":"put"
+    },
+    {
+        "api_name":"search_centerres",
+        "req":"/prod-api/basics/utconEmergencyRes/list",
+        "method":"get"
+    },
+    {
+        "api_name":"export_centerres",
+        "req":"/prod-api/basics/utconEmergencyRes/export",
+        "method":"post"
+    },
+    {
+        "api_name":"delete_centerres",
+        "req":"/prod-api/basics/utconEmergencyRes/",
+        "method":"delete"
+    }
+]
